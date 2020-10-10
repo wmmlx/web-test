@@ -5,61 +5,55 @@
         </div>
         <div class="content">
             <div class="l">
-                <div class="con-header">热点威胁事件</div>
+                <div class="con-header">
+                    热点威胁事件
+                </div>
                 <div class="t">
                     <!-- 轨道 -->
-                    <svg xmlns="http://www.w3.org/2000/svg" width="500" height="300" viewPort="0 0 500 300" version="1.1">
-                        <ellipse xmlns="http://www.w3.org/2000/svg" cx="250" cy="150" rx="250" ry="150" stroke-width="1" stroke="#fff" stroke-opacity="0.5" stroke-dasharray="4, 15" fill="none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewPort="0 0 600 260" version="1.1">
+                        <ellipse xmlns="http://www.w3.org/2000/svg" cx="300" cy="130" rx="300" ry="130" stroke-width="1" stroke="#fff" stroke-opacity="0.5" stroke-dasharray="4, 15" fill="none">
                             <animate id="animate" attributeName="stroke-dashoffset" to="360" begin="0" dur="40s" repeatCount="indefinite" />
                         </ellipse>
-                        <ellipse xmlns="http://www.w3.org/2000/svg" cx="250" cy="150" rx="208.3" ry="125"  stroke-width="1" stroke="#fff" stroke-opacity="0.4" stroke-dasharray="100, 80" fill="none">
+                        <ellipse xmlns="http://www.w3.org/2000/svg" cx="300" cy="130" rx="250" ry="108.33"  stroke-width="1" stroke="#fff" stroke-opacity="0.4" stroke-dasharray="100, 80" fill="none">
                             <animate id="animate" attributeName="stroke-dashoffset" to="-360" begin="0" dur="30s" repeatCount="indefinite" />
                         </ellipse>
-                        <ellipse xmlns="http://www.w3.org/2000/svg" cx="250" cy="150" rx="178.5" ry="107.1"  stroke-width="1" stroke="#fff" stroke-opacity="0.3" stroke-dasharray="100, 80" fill="none">
+                        <ellipse xmlns="http://www.w3.org/2000/svg" cx="300" cy="130" rx="214.3" ry="92.6"  stroke-width="1" stroke="#fff" stroke-opacity="0.3" stroke-dasharray="100, 80" fill="none">
                             <animate id="animate" attributeName="stroke-dashoffset" to="360" begin="0" dur="35s" repeatCount="indefinite" />
                         </ellipse>
-                        <ellipse xmlns="http://www.w3.org/2000/svg" cx="250" cy="150" rx="125" ry="75"  stroke-width="1" stroke="#fff" stroke-opacity="0.5" stroke-dasharray="100, 80" fill="none">
+                        <ellipse xmlns="http://www.w3.org/2000/svg" cx="300" cy="130" rx="150" ry="65"  stroke-width="1" stroke="#fff" stroke-opacity="0.5" stroke-dasharray="100, 80" fill="none">
                             <animate id="animate" attributeName="stroke-dashoffset" to="-360" begin="0" dur="30s" repeatCount="indefinite" />
                         </ellipse>
-                        <ellipse xmlns="http://www.w3.org/2000/svg" cx="250" cy="150" rx="50" ry="30"  stroke-width="1" stroke="#fff" stroke-opacity="0.1" stroke-dasharray="10, 2" fill="none">
+                        <ellipse xmlns="http://www.w3.org/2000/svg" cx="300" cy="130" rx="60" ry="26"  stroke-width="1" stroke="#fff" stroke-opacity="0.1" stroke-dasharray="10, 2" fill="none">
                             <animate id="animate" attributeName="stroke-dashoffset" to="360" begin="0" dur="20s" repeatCount="indefinite" />
                         </ellipse>
                     </svg>
-                    <!-- 行星 -->
                     <div class="planet planet1">
                         <img src="../../assets/planet.svg">
-                        <span>10</span>
+                        <span>1</span>
                     </div>
                     <div class="planet planet2">
                         <img src="../../assets/planet.svg">
-                        <span>3</span>
+                        <span>2</span>
                     </div>
                     <div class="planet planet3">
                         <img src="../../assets/planet.svg">
-                        <span>8</span>
+                        <span>3</span>
                     </div>
                     <div class="planet planet4">
                         <img src="../../assets/planet.svg">
-                        <span>20</span>
+                        <span>4</span>
                     </div>
                     <div class="planet planet5">
-                        <svg version="1.1" width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <g>
-                                <path fill="#7897bf" stroke-width="4" stroke="#2a366a" d="M31.112,39.094v21.812L49.999,71.81l18.89-10.903V39.094l-18.89-10.905L31.112,39.094z M60.925,56.308l-10.926,6.307 l-10.924-6.307V43.692l10.924-6.308l10.926,6.308V56.308z"></path>
-                                <path class="line1" fill="#2a366a"  stroke-width="2" stroke="#07abcc"  d="M49.999,3.29L9.547,26.646v46.709L49.999,96.71l40.454-23.355V26.646L49.999,3.29z M82.19,68.584L49.999,87.169 L17.811,68.584v-37.17l32.188-18.585L82.19,31.414V68.584z"></path>
-                                <path fill="#2a366a" d="M20.368,32.89v34.218l29.631,17.108l29.634-17.108V32.89L49.999,15.782L20.368,32.89z M71.446,62.383l-21.447,12.38 l-21.444-12.38V37.618l21.444-12.382l21.447,12.382V62.383z"></path>
-                                <polygon fill="#7897bf" points="34.72,58.84 34.7,41.2 50,32.36 65.3,41.2 65.3,58.82 50,67.66 "></polygon>
-                            </g>
-                        </svg>
+                        <img src="../../assets/planet.svg">
                         <span>5</span>
                     </div>
                     <div class="planet planet6">
                         <img src="../../assets/planet.svg">
-                        <span>30</span>
+                        <span>6</span>
                     </div>
                     <div class="planet planet7">
                         <img src="../../assets/planet.svg">
-                        <span>0</span>
+                        <span>7</span>
                     </div>
                 </div>
                 <div class="con-header">实时威胁事件</div>
@@ -368,8 +362,11 @@
             list-style: none;
         }
         .con-header{
+            font-size: 14px;
             box-sizing: border-box;
-            padding: 10px;
+            padding: 15px 20px;
+            background-image: url("../../assets/titlebg.svg");
+            background-size: 100% 100%;
         }
         .content{
             flex: 1;
@@ -574,43 +571,34 @@
             display:flex;
             align-items:center;
             justify-content:center;
-            transform-origin: 0 150px;
+            transform-origin: 0 130px;
         }
         @keyframes animX{
             0% {left: 0;}
-            100% {left: 500px;}
+            100% {left: 600px;}
         }
         @keyframes animY{
             0% {top: 0;}
-            100% {top: 300px;}
+            100% {top: 260px;}
         }
 
 
         @keyframes animX3{
-            0% {left: 41.7px;}
-            100% {left: 458.3px;}
+            0% {left: 50px;}
+            100% {left: 550px;}
         }
         @keyframes animY3{
-            0% {top: 25px;}
-            100% {top: 275px;}
+            0% {top: 21.67px;}
+            100% {top: 238.33px;}
         }
 
         @keyframes animX4{
-            0% {left: 71.5px;}
-            100% {left: 428.5px;}
+            0% {left: 85.7px;}
+            100% {left: 514.3px;}
         }
         @keyframes animY4{
-            0% {top: 42.9px;}
-            100% {top: 257.1px;}
-        }
-
-        @keyframes animX5{
-            0% {left: 125px;}
-            100% {left: 375px;}
-        }
-        @keyframes animY5{
-            0% {top: 75px;}
-            100% {top: 225px;}
+            0% {top: 34.7px;}
+            100% {top: 225.3px;}
         }
 
         @keyframes scale {
@@ -625,40 +613,40 @@
             }
         }
         .planet1 {
-            animation: animX 24s cubic-bezier(0.36, 0, 0.64, 1) -12s infinite alternate,
-            animY 24s cubic-bezier(0.36, 0, 0.64, 1) 0s infinite alternate,
-            scale 48s cubic-bezier(0.36, 0, 0.64, 1) 0s infinite alternate;
+            animation: animX4 24s cubic-bezier(0.3142, 0, 0.4571, 1) -12s infinite alternate,
+            animY4 24s cubic-bezier(0.3142, 0, 0.4571, 1) 0s infinite alternate,
+            scale 48s cubic-bezier(0.3142, 0, 0.4571, 1) 0s infinite alternate;
         }
         .planet2 {
-            animation: animX 24s cubic-bezier(0.36, 0, 0.64, 1) -20s infinite alternate,
-            animY 24s cubic-bezier(0.36, 0, 0.64, 1) -8s infinite alternate,
-            scale 48s cubic-bezier(0.36, 0, 0.64, 1) -8s infinite alternate;
+            animation: animX 24s cubic-bezier(0.44, 0, 0.57, 1) -20s infinite alternate,
+            animY 24s cubic-bezier(0.44, 0, 0.57, 1) -8s infinite alternate,
+            scale 48s cubic-bezier(0.44, 0, 0.57, 1) -8s infinite alternate;
         }
         .planet3 {
-            animation: animX3 24s cubic-bezier(0.3, 0, 0.53, 1) -28s infinite alternate,
-            animY3 24s cubic-bezier(0.3, 0, 0.53, 1) -16s infinite alternate,
-            scale 48s cubic-bezier(0.3, 0, 0.53, 1) -16s infinite alternate;
+            animation: animX3 24s cubic-bezier(0.366, 0, 0.533, 1) -28s infinite alternate,
+            animY3 24s cubic-bezier(0.366, 0, 0.533, 1) -16s infinite alternate,
+            scale 48s cubic-bezier(0.366, 0, 0.533, 1) -16s infinite alternate;
         }
         .planet4 {
-            animation: animX4 24s cubic-bezier(0.257, 0, 0.457, 1) -36s infinite alternate,
-            animY4 24s cubic-bezier(0.257, 0, 0.457, 1) -24s infinite alternate,
-            scale 48s cubic-bezier(0.257, 0, 0.457, 1) -24s infinite alternate;
+            animation: animX 24s cubic-bezier(0.44, 0, 0.57, 1) -36s infinite alternate,
+            animY 24s cubic-bezier(0.44, 0, 0.57, 1) -24s infinite alternate,
+            scale 48s cubic-bezier(0.44, 0, 0.57, 1) -24s infinite alternate;
         }
         .planet5 {
             transform: scale(0.7);
-            left: 260px;
-            top: 150px;
+            left: 315px;
+            top: 135px;
         }
         .planet6 {
-            animation: animX 24s cubic-bezier(0.36, 0, 0.64, 1) -44s infinite alternate,
-            animY 24s cubic-bezier(0.36, 0, 0.64, 1) -32s infinite alternate,
-            scale 48s cubic-bezier(0.36, 0, 0.64, 1) -32s infinite alternate;
+            animation: animX 24s cubic-bezier(0.44, 0, 0.57, 1) -44s infinite alternate,
+            animY 24s cubic-bezier(0.44, 0, 0.57, 1) -32s infinite alternate,
+            scale 48s cubic-bezier(0.44, 0, 0.57, 1) -32s infinite alternate;
         }
 
         .planet7 {
-            animation: animX 24s cubic-bezier(0.36, 0, 0.64, 1) -52s infinite alternate,
-            animY 24s cubic-bezier(0.36, 0, 0.64, 1) -40s infinite alternate,
-            scale 48s cubic-bezier(0.36, 0, 0.64, 1) -40s infinite alternate;
+            animation: animX 24s cubic-bezier(0.44, 0, 0.57, 1) -52s infinite alternate,
+            animY 24s cubic-bezier(0.44, 0, 0.57, 1) -40s infinite alternate,
+            scale 48s cubic-bezier(0.44, 0, 0.57, 1) -40s infinite alternate;
         }
         .slide-enter-active {
             animation: fade-in 1s;
@@ -685,8 +673,4 @@
             }
         }
     }
-    .line1{
-        stroke-dasharray: 100; stroke-dashoffset: 80; animation: dash 3s linear alternate infinite;
-    }
-    @keyframes dash { from { stroke-dashoffset: 360; } to { stroke-dashoffset: 0; } }
 </style>
