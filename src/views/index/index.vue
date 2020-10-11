@@ -336,7 +336,7 @@
     .container{
         width: 100%;
         height: 100%;
-        background: #050f3a;
+        background-image: linear-gradient(to right, #04103a, #061f5f, #04103a);
         color: #fff;
         display: flex;
         flex-direction: column;
@@ -393,7 +393,7 @@
                     overflow: hidden;
                     display: flex;
                     flex-direction: column;
-                    background: #030d35;
+                    background: #05174b;
                     border-radius: 4px;
                     .seamless-warp{
                         flex: 1;
@@ -442,8 +442,9 @@
                 .t, .c, .b{
                     display: flex;
                     align-items: center;
-                    background: #030d35;
+                    background: rgba(3,13,53, .4);
                     width: 100%;
+                    border-radius: 4px;
                 }
                 .t{
                     .t-l{
