@@ -4,10 +4,12 @@
         <div class="content">
             <div class="t">
                 <flash-cloud></flash-cloud>
+                <c-map></c-map>
             </div>
             <div class="b">
                 <dynamic-list></dynamic-list>
                 <circle-runway></circle-runway>
+                <scroll-list></scroll-list>
             </div>
         </div>
     </div>
@@ -17,6 +19,8 @@
     import dynamicList from "./components/dynamicList"
     import flashCloud from "./components/flashCloud"
     import circleRunway from "./components/circleRunway"
+    import scrollList from "./components/scrollList"
+    import cMap from "./components/map"
     export default {
         data () {
             return {}
@@ -25,7 +29,9 @@
             top,
             flashCloud,
             dynamicList,
-            circleRunway
+            circleRunway,
+            scrollList,
+            cMap
         }
     }
 
@@ -45,11 +51,21 @@
         .content{
             flex: 1;
             width: 100%;
+            display: flex;
+            flex-direction: column;
             overflow: hidden;
             .t, .b{
                 width: 100%;
                 display: flex;
-                justify-content: space-between;
+            }
+            .t{
+                flex: 1;
+            }
+            .b{
+                background-image: url("../../assets/border-bg.png");
+                background-size: 100% 100%;
+                box-sizing: border-box;
+                padding: 10px;
             }
         }
     }

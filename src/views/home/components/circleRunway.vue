@@ -167,8 +167,10 @@
     .sn-container {
        position: relative;
         width: 372px;
+        top: 30px;
         .wrap-container{
-            height: 300px;
+            height: 270px;
+            position: relative;
         }
         .chartsdom {
             width: 100%;
@@ -183,7 +185,7 @@
             transform: translate(0%, -50%);
             white-space: nowrap;
             &.info0 {
-                margin-top: -185.5px;
+                margin-top: -120.5px;
                 span {
                     &:nth-child(1) {
                         background-color: rgb(0, 114, 188);
@@ -191,7 +193,7 @@
                 }
             }
             &.info1 {
-                margin-top: -155.5px;
+                margin-top: -95.5px;
                 span {
                     &:nth-child(1) {
                         background-color: rgb(0, 255, 255);
@@ -199,7 +201,7 @@
                 }
             }
             &.info2 {
-                margin-top: -130.5px;
+                margin-top: -70.5px;
                 span {
                     &:nth-child(1) {
                         background-color: rgb(255, 146, 50);

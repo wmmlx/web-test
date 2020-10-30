@@ -142,17 +142,18 @@
 <style lang="scss" scoped>
     .sn-container {
         width: 560px;
-        height: 400px;
         position: relative;
         .pd-info {
             left: 0;
             top: 35px;
             width: 100%;
             height: 80%;
+            position: relative;
         }
         .pd-info-center {
             width: 100%;
             height: 100%;
+            position: relative;
             .y-center {
                 position: absolute;
                 top: 16px;

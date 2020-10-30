@@ -99,7 +99,7 @@
         left: 512px;
         top: 1978px;
         width: 432px;
-        height: 400px;
+        height: 300px;
         .cloud {
             left: 55px;
             top: 0;
