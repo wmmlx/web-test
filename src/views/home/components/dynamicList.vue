@@ -1,7 +1,6 @@
 <template>
     <div class="wrap-container sn-container">
         <div class="sn-content">
-            <div class="sn-title">动态列表</div>
             <div class="sn-body">
                 <div class="wrap-container pd-info">
                     <div class="pd-info-center">
