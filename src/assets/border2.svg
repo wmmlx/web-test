@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="219" height="298" >
+    <path fill="transparent" d="
+        M 5 20 L 5 10 L 12 3  L 60 3 L 68 10
+        L 199 10 L 214 25
+        L 214 293 L 20 293
+        L 5 278 L 5 20
+      " stroke="#6586ec"></path>
+    <path fill="transparent" stroke-width="3" stroke-linecap="round" stroke-dasharray="10, 5" d="M 16 9 L 61 9" stroke="#6586ec"></path>
+    <path fill="transparent" d="M 5 20 L 5 10 L 12 3  L 60 3 L 68 10" stroke="#2cf7fe"></path>
+    <path fill="transparent" d="M 214 268 L 214 293 L 189 293" stroke="#2cf7fe"></path>
+</svg>
