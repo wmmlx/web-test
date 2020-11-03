@@ -1,8 +1,8 @@
 <template>
-    <div class="wrap-container sn-container">
+    <div class="sn-container">
         <div class="sn-content">
             <div class="sn-body">
-                <div class="wrap-container pd-info">
+                <div class="pd-info">
                     <div class="pd-info-center">
                         <div class="y-center">
                             <div class="info-1-0 animated infinite rotateF"></div>
@@ -141,11 +141,14 @@
 
 <style lang="scss" scoped>
     .sn-container {
-        width: 560px;
+        width: 600px;
+        flex: 1;
         position: relative;
+        background-image: url("../../../assets/con-item-bg2.png");
+        background-size: 100% 100%;
         .pd-info {
             left: 0;
-            top: 35px;
+            top: 0;
             width: 100%;
             height: 80%;
             position: relative;
@@ -244,12 +247,12 @@
                 .y-number-text {
                     display: inline-block;
                     color: #0072bc;
-                    font-size: 18px;
+                    font-size: 14px;
                     padding: 10px 0 0 60px;
                     > span {
                         display: block;
                         &:nth-child(2) {
-                            font-size: 22px;
+                            font-size: 18px;
                             color: #00aeef;
                             line-height: 28px;
                             padding: 0;

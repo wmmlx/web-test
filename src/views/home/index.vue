@@ -3,13 +3,31 @@
         <top></top>
         <div class="content">
             <div class="t">
-                <flash-cloud></flash-cloud>
+                <div>
+                    <con-title title="行业情况"></con-title>
+                    <industry></industry>
+                </div>
                 <c-map></c-map>
+                <div class="r">
+                    <div>
+                        <con-title title="测评情况"></con-title>
+                        <situation></situation>
+                    </div>
+                    <div class="evaluation-wrapper">
+                        <con-title title="测评概览"></con-title>
+                        <evaluation></evaluation>
+                    </div>
+                </div>
             </div>
             <div class="b">
-                <dynamic-list></dynamic-list>
-                <circle-runway></circle-runway>
-                <scroll-list></scroll-list>
+                <div class="l">
+                    <con-title title="实时问题情况"></con-title>
+                    <scroll-list></scroll-list>
+                </div>
+                <div>
+                    <con-title title="等级占比"></con-title>
+                    <dynamic-list></dynamic-list>
+                </div>
             </div>
         </div>
     </div>
@@ -21,6 +39,10 @@
     import circleRunway from "./components/circleRunway"
     import scrollList from "./components/scrollList"
     import cMap from "./components/map"
+    import conTitle from "./components/conTitle"
+    import industry from "./components/industry"
+    import evaluation from "./components/evaluation"
+    import situation from "./components/situation"
     export default {
         data () {
             return {}
@@ -31,7 +53,11 @@
             dynamicList,
             circleRunway,
             scrollList,
-            cMap
+            cMap,
+            conTitle,
+            industry,
+            evaluation,
+            situation
         }
     }
 
@@ -47,12 +73,13 @@
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
-        padding: 10px;
+        padding: 0 10px 10px;
         .content{
             flex: 1;
             width: 100%;
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
             overflow: hidden;
             .t, .b{
                 width: 100%;
@@ -60,12 +87,39 @@
             }
             .t{
                 flex: 1;
+                overflow: hidden;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .r{
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    .evaluation-wrapper{
+                        flex: 1;
+                        margin-top: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+                }
             }
             .b{
-                background-image: url("../../assets/border-bg.png");
-                background-size: 100% 100%;
-                box-sizing: border-box;
-                padding: 10px;
+                margin-top: 15px;
+                height: 290px;
+                overflow: hidden;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .l{
+                    flex: 1;
+                    margin-right: 10px;
+                }
+                >div{
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                }
             }
         }
     }
