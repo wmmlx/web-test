@@ -3,7 +3,7 @@
         <top></top>
         <div class="content">
             <div class="t">
-                <div>
+                <div class="l">
                     <con-title title="行业情况"></con-title>
                     <industry></industry>
                 </div>
@@ -35,8 +35,6 @@
 <script>
     import top from './components/top'
     import dynamicList from "./components/dynamicList"
-    import flashCloud from "./components/flashCloud"
-    import circleRunway from "./components/circleRunway"
     import scrollList from "./components/scrollList"
     import cMap from "./components/map"
     import conTitle from "./components/conTitle"
@@ -49,9 +47,7 @@
         },
         components: {
             top,
-            flashCloud,
             dynamicList,
-            circleRunway,
             scrollList,
             cMap,
             conTitle,
@@ -91,6 +87,12 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                .l{
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
                 .r{
                     height: 100%;
                     display: flex;
